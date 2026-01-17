@@ -1,16 +1,25 @@
 name: HT-Login
 version: 1.21.11
 main: com.htlogin.HTLogin
-api-version: 1.13
+api-version: 1.20
 author: mustafa8907
+description: A professional Login system with Geyser support and IP Session.
+
 commands:
   gir:
-    description: Giriş yapmanızı sağlar.
+    description: Sisteme giriş yapmanızı sağlar.
+    usage: /gir <şifre>
     aliases: [login, l]
   kayıt:
-    description: Kayıt olmanızı sağlar.
+    description: Sisteme kayıt olmanızı sağlar.
+    usage: /kayıt <şifre> <şifre>
     aliases: [register, reg]
   logout:
-    description: Hesaptan çıkış yapar.
+    description: Oturumu kapatır.
   changepassword:
     description: Şifrenizi değiştirir.
+
+permissions:
+  htlogin.use:
+    description: Oyuncuların giriş sistemini kullanmasına izin verir.
+    default: true
