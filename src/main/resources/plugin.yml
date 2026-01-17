@@ -2,6 +2,7 @@ name: HT-Login
 version: 1.21.11
 main: com.htlogin.HTLogin
 api-version: 1.13
+author: mustafa8907
 commands:
   gir:
     description: Giriş yapmanızı sağlar.
