@@ -1,0 +1,15 @@
+name: HT-Login
+version: 1.21.11
+main: com.htlogin.HTLogin
+api-version: 1.13
+commands:
+  gir:
+    description: Giriş yapmanızı sağlar.
+    aliases: [login, l]
+  kayıt:
+    description: Kayıt olmanızı sağlar.
+    aliases: [register, reg]
+  logout:
+    description: Hesaptan çıkış yapar.
+  changepassword:
+    description: Şifrenizi değiştirir.
