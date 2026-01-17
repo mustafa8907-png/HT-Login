@@ -1,0 +1,18 @@
+settings:
+  language: "tr"
+  session-duration-minutes: 1440
+  login-timeout-seconds: 60
+  max-password-attempts: 3
+  min-password-length: 4
+  max-password-length: 16
+  banned-passwords:
+    - "123456"
+    - "password"
+  bedrock-auto-login: true
+  bedrock-prefixes: [".", "-", "*", "~", "'", "•"]
+
+sounds:
+  join: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  login-success: "ENTITY_PLAYER_LEVELUP"
+  login-fail: "BLOCK_ANVIL_PLACE"
+  count-down: "UI_BUTTON_CLICK"
